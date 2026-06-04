@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "dev": "wrangler dev",
     "deploy": "wrangler deploy"
   },
@@ -17,6 +17,10 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20260413.1",
+    "@jest/globals": "^30.4.1",
+    "@types/jest": "^30.0.0",
+    "jest": "^30.4.2",
+    "ts-jest": "^29.4.11",
     "typescript": "^6.0.2",
     "wrangler": "^4.82.1"
   }
